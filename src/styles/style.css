@@ -14,22 +14,21 @@
 
 @font-face {
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   src: url(../../assets/fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   src: url(../../assets/fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
   font-weight: normal;
-  font-family: 'Neucha', cursive;
+  font-family: 'Neucha';
   src: url(../../assets/Neucha-Regular.ttf);
 }
-
 
 *,
 *::before,
@@ -49,6 +48,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+
+  max-width: 1440px;
 
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -75,13 +76,83 @@ h1,
 h2,
 h3 {
   font-weight: normal;
-  font-family: 'Neucha', cursive;
+  font-family: 'Neucha', serif;
   line-height: 1.6em;
 }
 
+.header {
+  width: 100%;
+  height: 914px;
+}
+
+.header__background::after {
+  opacity: 0.1;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -2;
+
+  background-image: url(../../assets/images/background.png);
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
 .content {
-  margin: 0 auto;
+  margin: 100px auto;
 
   max-width: 1110px;
 }
 
+.header__logo {
+  position: absolute;
+  top: 6%;
+  left: 32.1%;
+  z-index: -1;
+}
+
+.header__title {
+  margin-top: 9.7%;
+  margin-bottom: 17.4%;
+
+  line-height: 1.2;
+}
+
+.header__title-color {
+  color: var(--primary);
+}
+
+.header__text-columns-2 {
+  position: relative;
+
+  column-count: 2;
+  column-gap: 30px;
+  column-width: 540px;
+}
+
+.mb-3 {
+  margin-bottom: 3%;
+}
+
+.header__link {
+  position: absolute;
+  top: 118%;
+  left: 51.35%;
+}
+
+.button {
+  display: block;
+
+  padding: 12px 24px;
+
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: var(--primary);
+}
