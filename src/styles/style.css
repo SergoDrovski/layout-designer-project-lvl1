@@ -69,16 +69,23 @@ h2 {
 }
 
 h3 {
+  font-size: 52px;
+}
+
+h4 {
   font-size: 34px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: normal;
   font-family: 'Neucha', serif;
   line-height: 1.6em;
 }
+/*_________________________________________________________________________________________________*/
+/*ПЕРВАЯ СЕКЦИЯ ХЕДЕР*/
 
 .section {
   position: relative;
@@ -89,10 +96,7 @@ h3 {
   padding-right: 0;
 
   width: 100%;
-
 }
-
-
 
 .section__background::after {
   opacity: 0.05;
@@ -134,7 +138,7 @@ h3 {
   line-height: 1.2;
 }
 
-.title-color {
+.title-color-primary {
   color: var(--primary);
 }
 
@@ -172,6 +176,12 @@ h3 {
   background-color: var(--primary);
 }
 
+/*КОНЕЦ ПЕРВОЙ СЕКЦИИ ХЕДЕР*/
+/*_________________________________________________________________________________________________*/
+
+
+/*СЕКЦИЯ С ВИДЕО КОНТЕНТОМ */
+
 .section__video-background {
   padding-bottom: 9px;
 
@@ -197,3 +207,112 @@ h3 {
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
+
+/*КОНЕЦ СЕКЦИИ С ВИДЕО КОНТЕНТОМ */
+/*_________________________________________________________________________________________________*/
+
+/*НАЧАЛО СЕКЦИИ НАВИГАЦИИ*/
+
+.flex__navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section__nav__item {
+  margin-bottom: 20px;
+
+  width: 350px;
+}
+
+.nav__link {
+
+  padding: 24px;
+
+  text-decoration: none;
+}
+
+.section__navigation-background {
+  background-color: var(--primaryDark);
+}
+
+.section__nav__link-background {
+  background-color: var(--light);
+}
+
+.nav__title {
+  margin-top: 6px;
+
+  line-height: 1.2;
+}
+
+.link__title__h2 {
+  color: var(--primaryDark);
+  font-size: 64px;
+
+  line-height: 1.2;
+}
+
+.link__title__h4 {
+  margin-top: 32px;
+
+  line-height: 1.2;
+}
+
+.link__text-mt {
+  margin-top: 13px;
+
+  color: var(--dark);
+}
+
+.title-color-white {
+  color: var(--white);
+}
+
+.nav__link:hover {
+  color: #fff;
+
+  background-color: var(--primary);
+}
+
+.nav__link:hover>.link__title__h2,
+.nav__link:hover>.title-color-white-hover,
+.nav__link:hover>.link__text-mt {
+  color: #fff;
+}
+
+/*КОНЕЦ СЕКЦИИ НАВИГАЦИИ */
+/*_________________________________________________________________________________________________*/
+
+/*НАЧАЛО ПЕРВОЙ СЕКЦИИ MAIN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
