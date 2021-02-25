@@ -98,7 +98,7 @@ h4 {
   width: 100%;
 }
 
-.section_background::after {
+.section-background::after {
   opacity: 0.1;
 
 
@@ -124,14 +124,14 @@ h4 {
   max-width: 1110px;
 }
 
-.header_logo {
+.header-logo {
   position: absolute;
   top: -7.5%;
   left: 26.8%;
   z-index: -1;
 }
 
-.header_title {
+.header-title {
   margin-top: 0.7%;
   margin-bottom: 17.4%;
 
@@ -142,7 +142,7 @@ h4 {
   color: var(--primary);
 }
 
-.header_text-columns-2 {
+.header-text-columns-2 {
   column-count: 2;
   column-gap: 30px;
   column-width: 540px;
@@ -154,7 +154,7 @@ h4 {
   margin-bottom: 3%;
 }
 
-.header_link {
+.header-link {
   margin-left: 51.4%;
 }
 
