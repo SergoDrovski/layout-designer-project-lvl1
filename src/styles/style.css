@@ -213,53 +213,53 @@ h4 {
 
 /*НАЧАЛО СЕКЦИИ НАВИГАЦИИ*/
 
-.flex_navigation {
+.flex-navigation {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.section_nav_item {
+.section-nav-item {
   margin-bottom: 20px;
 
   width: 350px;
 }
 
-.nav_link {
+.nav-link {
 
   padding: 24px;
 
   text-decoration: none;
 }
 
-.section_navigation-background {
+.section-navigation-background {
   background-color: var(--primaryDark);
 }
 
-.section_nav_link-background {
+.section-nav-link-background {
   background-color: var(--light);
 }
 
-.nav_title {
+.nav-title {
   margin-top: 6px;
 
   line-height: 1.2;
 }
 
-.link_title_h2 {
+.link-title-h2 {
   color: var(--primaryDark);
   font-size: 64px;
 
   line-height: 1.2;
 }
 
-.link_title_h4 {
+.link-title-h4 {
   margin-top: 32px;
 
   line-height: 1.2;
 }
 
-.link_text-mt {
+.link-text-mt {
   margin-top: 13px;
 
   color: var(--dark);
@@ -269,15 +269,15 @@ h4 {
   color: var(--white);
 }
 
-.nav_link:hover {
+.nav-link:hover {
   color: #fff;
 
   background-color: var(--primary);
 }
 
-.nav_link:hover>.link_title_h2,
-.nav_link:hover>.title-color-white-hover,
-.nav_link:hover>.link_text-mt {
+.nav-link:hover>.link_title_h2,
+.nav-link:hover>.title-color-white-hover,
+.nav-link:hover>.link_text-mt {
   color: #fff;
 }
 
