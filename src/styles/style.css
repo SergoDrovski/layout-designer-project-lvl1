@@ -182,26 +182,26 @@ h4 {
 
 /*СЕКЦИЯ С ВИДЕО КОНТЕНТОМ */
 
-.section_video-background {
+.section-video-background {
   padding-bottom: 9px;
 
   background-image: linear-gradient(to bottom, #fff 88.1%, #42413c 88.1%);
 }
 
-.section_text {
+.section-text {
   padding-top: 0.60%;
   text-align: center;
 }
 
-.section_title {
+.section-title {
   line-height: 1.2;
 }
 
-.section_paragraph {
+.section-paragraph {
   margin-top: 2%;
 }
 
-.section_video {
+.section-video {
   margin-top: 2.8%;
   margin-left: 8.63%;
 
@@ -292,7 +292,7 @@ h4 {
 }
 
 .section_ikea_elem-1 {
-  filter: drop-shadow(0 16px 32px rgba(0,0,0,0.16));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.16));
 }
 
 .section_ikea_elem-2 {
