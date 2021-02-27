@@ -423,3 +423,118 @@ h4 {
 .mb-58 {
   margin-bottom: 58px;
 }
+
+.background-white {
+  background-color: var(--white);
+}
+
+.section-form {
+  padding-top: 38px;
+  padding-right: 55px;
+  padding-bottom: 38px;
+  padding-left: 55px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.form-element {
+  align-self: flex-start;
+}
+
+.size-form-element {
+  width: 485px;
+  height: 50px;
+
+  padding-top: 15px;
+  padding-right: 85px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+
+  border: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.size-text {
+  font-size: 12px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.size-text-14 {
+  font-size: 14px;
+}
+
+.mt-60 {
+  margin-top: 75px;
+}
+
+.form-element-relative {
+  position: relative;
+}
+
+.button-send {
+  position: absolute;
+  top: 17%;
+  right: 0;
+
+  display: inline-block;
+
+  width: 62px;
+  height: 50px;
+
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+
+  border: none;
+  border-radius: 0;
+
+  background-color: var(--primary);
+}
+
+.button:hover {
+  background-color: #ea7600;
+}
+
+.button-send:hover {
+  background-color: #ea7600;
+}
+
+.form-element-send-absolut::after {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background-image: url(../../assets/images/send.svg);
+  background-repeat: no-repeat;
+
+  content: "";
+}
+
+.size-text-18 {
+  font-size: 18px;
+}
+
+.mt-3 {
+  margin-top: 2px;
+}
+
+.mt-19 {
+  margin-top: 19px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
