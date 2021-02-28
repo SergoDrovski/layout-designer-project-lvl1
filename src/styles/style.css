@@ -26,7 +26,7 @@
 @font-face {
   font-weight: normal;
   font-family: 'Neucha';
-  src: url(../../assets/Neucha-Regular.ttf);
+  src: url(../../assets/fonts/Neucha-Regular.ttf);
 }
 
 *,
@@ -221,6 +221,10 @@ h4 {
   margin-left: 8.63%;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.video {
+  border: 0;
 }
 
 .flex-navigation {
@@ -537,4 +541,12 @@ h4 {
 
 .mb-15 {
   margin-bottom: 15px;
+}
+
+.mb-17 {
+  margin-bottom: 17px;
+}
+
+.width-size {
+  width: 542px;
 }
