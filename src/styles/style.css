@@ -14,19 +14,19 @@
 @font-face {
   font-weight: normal;
   font-family: 'Open Sans';
-  src: url(../../assets/fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-weight: bold;
   font-family: 'Open Sans';
-  src: url(../../assets/fonts/OpenSans-Bold.ttf);
+  src: url(../fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
   font-weight: normal;
   font-family: 'Neucha';
-  src: url(../../assets/fonts/Neucha-Regular.ttf);
+  src: url(../fonts/Neucha-Regular.ttf);
 }
 
 *,
@@ -126,7 +126,7 @@ h4 {
   left: 0;
   z-index: -2;
 
-  background-image: url(../../assets/images/background.png);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -521,7 +521,7 @@ h4 {
   width: 24px;
   height: 24px;
 
-  background-image: url(../../assets/images/send.svg);
+  background-image: url(../images/send.svg);
   background-repeat: no-repeat;
 
   content: "";
